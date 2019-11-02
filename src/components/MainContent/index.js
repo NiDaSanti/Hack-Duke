@@ -1,10 +1,11 @@
 import React from 'react'
-import mainImage from '../../src/images/greatSymbolImage.jpg'
+import mainPortal from '../../src/images/greatSymbolImage.jpg'
 
-class MainContent extends React.Component {
-    render() {
-      return <h1>Hello, {this.props.name}</h1>;
-    }
+//console.log(mainImage)
+
+function MainContent() {
+   
+    return <img src={mainPortal} alt="Main Portal" />;
   }
 
 export default MainContent
